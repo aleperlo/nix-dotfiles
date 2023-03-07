@@ -25,7 +25,7 @@
         ];
       };
       "org/gnome/desktop/interface" = {
-        monospace-font-name = "Victor Mono 11";
+        monospace-font-name = "Victor Mono 12";
       };
       # Input sources configuration
       "org/gnome/desktop/input-sources" = {
