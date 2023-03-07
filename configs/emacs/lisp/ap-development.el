@@ -39,7 +39,7 @@
   (:global "C-x p m" ap/project-magit-status))
 
 (setup (:package direnv)
-       (:option (direnv-mode)))
+       (direnv-mode))
 
 (setup (:package vterm))
 

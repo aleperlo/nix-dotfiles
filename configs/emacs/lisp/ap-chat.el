@@ -1,5 +1,3 @@
-(setup (:package telega))
-
 (setup erc
   (:option erc-server "irc.libera.chat"
 	   erc-nick "perlomeno"
