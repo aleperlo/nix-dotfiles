@@ -74,12 +74,18 @@
     libsForQt5.kdenlive
     obs-studio
     pika-backup
-    tdesktop
     victor-mono
     zoom-us
   ];
   
   # Configuration of the Chromium browser
+  nixpkgs.overlays = [
+    (final: prev: {
+      chromium = prev.chromium.override {
+        commandLineArgs = "--enable-features=UseOzonePlatform --ozone-platform=wayland";
+      };
+    })
+  ];
   programs.chromium = {
     enable = true;
     defaultSearchProviderEnabled = true;
