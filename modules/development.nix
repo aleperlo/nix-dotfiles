@@ -11,6 +11,7 @@
     imagemagick
     ripgrep
     # Compilers, debuggers and build tools
+    coq
     ghc
     gnumake
     python3
