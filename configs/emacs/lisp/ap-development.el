@@ -41,6 +41,8 @@
 (setup (:package direnv)
        (direnv-mode))
 
+(setup (:package nix-mode))
+
 (setup (:package vterm))
 
 (provide 'ap-development)
